@@ -1,0 +1,36 @@
+div {
+    text-align: center;
+  }
+  
+  #slidercontainer {
+    border-style: solid;
+    padding: 1em;
+    margin: 1em;
+    background-color: lightblue;
+  }
+  
+  #slider {
+    margin: auto;
+    border-style: solid;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    animation: slider 10s infinite;
+    position: relative;
+  }
+#part1, #part2, #part3 {
+    margin: 10em auto 10em auto;    
+}
+  article {
+      text-align: center;
+      margin: auto;
+      width: 50%;
+      padding: 1em;
+  }
+  
+  @keyframes slider {
+    0% {left: -200px;}
+    50% {left: 200px;}
+    100% {left: -200px;}
+  }
+  
